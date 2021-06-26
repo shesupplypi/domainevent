@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist",
+    "lib": [
+      "es2020"
+    ],
+    "target": "es2020",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
+    "experimentalDecorators": true,
+    // "types": ["node", "@types/jest"],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "declarations.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/__tests__"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/node-fetch": "2.5.10",
+    "aws-sdk": "2.933.0",
+    "node-fetch": "2.6.1",
+    "parcel-bundler": "^1.6.1",
+    "ts-node": "10.0.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}
